@@ -1,0 +1,12 @@
+diff -urN propgrid.orig/build/GNUMakefile propgrid/build/GNUMakefile
+--- propgrid.orig/build/GNUMakefile	2008-11-02 11:30:06.000000000 +0100
++++ propgrid/build/GNUMakefile	2008-11-07 13:14:03.000000000 +0100
+@@ -209,7 +209,7 @@
+ 
+ ### Targets: ###
+ 
+-all: test_for_selected_wxbuild $(__propgrid_lib___depname) $(__propgrid_dll___depname) ../samples/propgridsample
++all: test_for_selected_wxbuild $(__propgrid_lib___depname) $(__propgrid_dll___depname)
+ 
+ install: all $(__install_propgrid_lib___depname) $(__install_propgrid_lib_headers___depname) $(__install_propgrid_dll___depname) $(__install_propgrid_dll_headers___depname)
+ 
