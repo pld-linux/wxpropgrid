@@ -1,4 +1,3 @@
-# $Revision: 1.1 $
 #
 %define	wx_config	wx-gtk2-ansi-config
 %define	wx_major	%(%{wx_config} --version | cut -d. -f1)
@@ -11,7 +10,7 @@ Version:	1.4.1
 Release:	1
 License:	wxWindows License
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/wxpropgrid/%{name}-%{version}-src.tar.gz
+Source0:	http://downloads.sourceforge.net/wxpropgrid/%{name}-%{version}-src.tar.gz
 # Source0-md5:	15f76092c2b84cca8ebf1577cd9a0bc6
 Patch0:		%{name}-no-sample.patch
 URL:		http://wxpropgrid.sourceforge.net/
