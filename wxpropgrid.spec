@@ -42,7 +42,7 @@ Pliki nagłówkowe biblioteki wxPropetyGrid.
 
 %prep
 %setup -qn propgrid
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 cd build && %{__make} -f GNUMakefile	\
